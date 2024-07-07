@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { QTableProps } from 'quasar'
 import { reactive } from 'vue'
 
-const tableColumns = reactive([
+const tableColumns: QTableProps['columns'] = [
     {
         name: 'TicketNo',
         label: 'No Ticket',
@@ -38,7 +39,7 @@ const tableColumns = reactive([
         field: (row: any) => row.Status || '-',
         align: 'left'
     }
-])
+]
 </script>
 
 <template>
