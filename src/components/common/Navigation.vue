@@ -10,7 +10,7 @@ defineProps<NavigationProps>()
 </script>
 
 <template>
-    <q-item clickable v-ripple v-if="!Children.length">
+    <q-item clickable v-ripple v-if="!Children.length" :to="Url">
         <q-item-section avatar>
             <base-icon :icon-name="Icon" size="18" />
         </q-item-section>

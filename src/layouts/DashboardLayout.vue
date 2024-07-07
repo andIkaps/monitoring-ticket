@@ -92,7 +92,7 @@ const menus: NavigationProps[] = [
     {
         Name: 'Ticket',
         Icon: 'Ticket',
-        Url: '/ticket',
+        Url: '/tickets',
         Children: []
     },
     {
